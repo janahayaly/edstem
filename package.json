@@ -1,0 +1,29 @@
+{
+  "name": "my-fullstack-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "turbo format"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@types/cookie-session": "^2.0.48",
+    "axios": "^1.6.8",
+    "bulma": "^1.0.0",
+    "connect-mongodb-session": "^5.0.0",
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.2.3",
+    "turbo": "^1.11.2"
+  },
+  "devDependencies": {
+    "@usebruno/cli": "^1.11.0"
+  }
+}
